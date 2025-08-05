@@ -1,0 +1,21 @@
+INI UNTUK BELAJAR FAST API
+
+uvicorn main:app --host 0.0.0.0 --port 8000
+
+Jalankan Uvicorn dengan Hot Reload
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+--------------------
+
+$ cd /home/online/learn/fastapi/01-fastapi
+$ source /opt/fastapi/bin/activate
+
+uvicorn main:app --host 0.0.0.0 --port 8000
+
+✅ 3. Akses di Browser / Postman
+
+Jika kamu menjalankan Docker dengan -p 8000:8000, buka:
+
+    🔹 API: http://localhost:8000
+
+    🔹 Swagger UI: http://localhost:8000/docs
